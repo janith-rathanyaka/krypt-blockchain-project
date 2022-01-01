@@ -5,7 +5,7 @@ module.exports = {
   networks: {
     ropsten: {
       url: 'https://eth-ropsten.alchemyapi.io/v2/UNJIqJWZn3dANKjvfGL47X2HvD46uJyN',
-      accounts: ['66def9003b2ad53fcd5e20a0bb119fb9efa86eec55418ec49551569f3158f8eb'],
+      accounts: ['04fcd1a2edfa56f211b78f67b6ca6aa5431585674e7645618645c96cf8415fa6'],
     },
   },
 };
