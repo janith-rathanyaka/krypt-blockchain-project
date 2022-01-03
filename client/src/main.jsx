@@ -2,14 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import { TransactionContext } from "./context/TransactionContext";
+import { TransactionProvider } from "./context/TransactionContext";
 
 ReactDOM.render(
-  <TransactionContext>
+  <TransactionProvider>
     <React.StrictMode>
       <App />
     </React.StrictMode>
     ,
-  </TransactionContext>,
+  </TransactionProvider>,
   document.getElementById("root")
 );
